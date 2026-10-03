@@ -1,9 +1,18 @@
-target/
-*.class
-.idea/
-*.iml
+# === Java / Spring Boot ===
+taskmanager-backend/target/
+taskmanager-backend/*.class
+taskmanager-backend/.idea/
+taskmanager-backend/*.iml
+taskmanager-backend/src/main/resources/application.properties
+
+# === Node / React ===
+taskmanager-frontend/node_modules/
+taskmanager-frontend/dist/
+taskmanager-frontend/.env
+taskmanager-frontend/.env.local
+
+# === System / OS Files ===
 .DS_Store
-node_modules/
-dist/
-.env
-application.properties
+Thumbs.db
+.vscode/
+.idea/
